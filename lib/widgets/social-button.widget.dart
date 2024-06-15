@@ -11,7 +11,6 @@ class SocialButton extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 20),
       child: InkWell(
         onTap: () {},
-        key: super.key,
         borderRadius: const BorderRadius.all(Radius.circular(40)),
         child: Container(
           height: 40,

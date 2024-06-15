@@ -8,7 +8,6 @@ class SocialRoundedButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return InkWell(
       onTap: () {},
-      key: super.key,
       borderRadius: const BorderRadius.all(Radius.circular(100)),
       child: Container(
         decoration: const BoxDecoration(
